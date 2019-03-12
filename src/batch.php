@@ -8,14 +8,14 @@
  */
 
 
-namespace qcth\aliyun_sms\controller;
+namespace qcth\aliyun_sms;
 
 use qcth\aliyun_sms\library\SignatureHelper;
 
 /**
  * 批量发送短信
  */
-class batch_sms{
+class batch{
 
     // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
     private $accessKeyId = "your access key id";

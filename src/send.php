@@ -3,13 +3,13 @@
  * 整合阿里短信接口,方便composer安装
  */
 
-namespace qcth\aliyun_sms\controller;
+namespace qcth\aliyun_sms;
 
 use qcth\aliyun_sms\library\SignatureHelper;
 /**
  * 发送短信
  */
-class send_sms{
+class send{
     
     //请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
     private $accessKeyId ;

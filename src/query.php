@@ -7,7 +7,7 @@
  * 2017/11/30
  */
 
-namespace qcth\aliyun_sms\controller;
+namespace qcth\aliyun_sms;
 
 use qcth\aliyun_sms\library\SignatureHelper;
 
@@ -15,7 +15,7 @@ use qcth\aliyun_sms\library\SignatureHelper;
  * 短信发送记录查询
  */
 
-class find_query{
+class query{
 
     // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
     private $accessKeyId = "your access key id";

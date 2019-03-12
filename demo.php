@@ -12,7 +12,7 @@
 //阿里提供密钥
 $accessKeyId='';
 $accessKeySecret='';
-$send_sms=new \Aliyun\sms\controller\send_sms($accessKeyId,$accessKeySecret);
+$send_sms=new \Aliyun\sms\send($accessKeyId,$accessKeySecret);
 
 //测试数据
 $code='2536';

@@ -4,7 +4,7 @@
 
 
 通过composer安装
-composer require qcth/aliyun_sms
+composer require qcth/aliyun-sms
 
 //第一步:加载
 include './vendor/autoload.php';
@@ -16,7 +16,7 @@ $accessKeyId='';
 
 $accessKeySecret='';
 
-$send_sms=new \Aliyun\sms\controller\send_sms($accessKeyId,$accessKeySecret);
+$send_sms=new \qcth\aliyun_sms\send($accessKeyId,$accessKeySecret);
 
 
 //第三步: 接收发送结果
