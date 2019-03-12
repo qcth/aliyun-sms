@@ -4,7 +4,7 @@
  * 阿里发短信演示
  * 备注: send_sms 发单条,已测试成功
  * batch_sms 群发,未测试
- * find_query 短信发送记录查询 , 未测试
+ * find_query 短信发送记录查询 , 未测试  
  */
 
 //include './vendor/autoload.php';
