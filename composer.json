@@ -1,0 +1,24 @@
+{
+    "name": "qcth/aliyun_sms",
+    "version": "v1.0.1",
+    "description": "this is aliyi sms demo",
+    "authors": [
+        {
+            "name": "qcth",
+            "email": "qcth@foxmail.com"
+        }
+    ],
+    "require": {},
+	"autoload":{
+        "psr-4":{
+            "qcth\\aliyun_sms\\controller\\":"controller/",
+            "qcth\\aliyun_sms\\library\\":"library/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
